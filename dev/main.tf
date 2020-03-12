@@ -1,8 +1,6 @@
 provider "aws" {
   version = "~> 2.52"
   region = "eu-central-1"
-  access_key = "AKIA6PRLPDC6NQM3LV43"
-  secret_key = "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"
 }
 
 data "aws_availability_zones" "az" {}
