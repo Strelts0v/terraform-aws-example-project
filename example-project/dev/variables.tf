@@ -3,6 +3,11 @@ variable "env" {
   default = "Dev"
 }
 
+variable "env_lower" {
+  type    = string
+  default = "dev"
+}
+
 variable "project" {
   type    = string
   default = "Example"
