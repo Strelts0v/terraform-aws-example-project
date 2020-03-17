@@ -30,10 +30,6 @@ variable "egress_cidr_blocks" {
 }
 
 variable "tags" {
-  type = map
-  default = {
-    Owner       = "Hleb Straltsou"
-    Project     = "Example Project"
-    Environment = "dev"
-  }
+  type    = map
+  default = {}
 }
