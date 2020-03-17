@@ -8,9 +8,7 @@ In order to run infrastructure you have to provide AWS creds:
 
 Also you need to create S3 bucket `terraform-example-project-state` or you can update main.tf file with your `bucket_name`
 
-Then go to to /example-project/dev (development infrastructure)
-
-and run the following commands:
+Then go to to /example-project/dev (development infrastructure) and run the following commands:
 
 - terraform init
 - terraform plan (optional
