@@ -1,6 +1,11 @@
 variable "env" {
   type    = string
-  default = "Dev"
+  default = "Prod"
+}
+
+variable "env_lower" {
+  type    = string
+  default = "prod"
 }
 
 variable "project" {
@@ -15,6 +20,6 @@ variable "common_tags" {
   default = {
     Owner       = "Hleb Straltsou"
     Project     = "Example"
-    Environment = "Dev"
+    Environment = "Prod"
   }
 }
